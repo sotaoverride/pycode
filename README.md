@@ -1,1 +1,1 @@
-Saw some Python books lying around when I was over, so I thought I thought I'd try this out in Pyhton.
+Saw some Python books lying around when I was over, so I thought I'd try this out in Pyhton.
