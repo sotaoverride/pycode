@@ -45,10 +45,8 @@ def getuserinput():
 
 def subwayLinePrint(obj):
     # create a formatted string of the Python JSON object
-    text = json.dumps(obj, sort_keys=True, indent=4)
-    resp = json.loads(text)
     try:
-        for each in resp['data']:
+        for each in obj['data']:
             print "ID: ",
             try:
                 print each['id'],
@@ -65,10 +63,8 @@ def subwayLinePrint(obj):
 
 def stationsPrint(obj):
     # create a formatted string of the Python JSON object
-    text = json.dumps(obj, sort_keys=True, indent=4)
-    resp = json.loads(text)
     try:
-        for each in resp['data']:
+        for each in obj['data']:
             print "Name: ",
             try:
                 print each['attributes']['name']
